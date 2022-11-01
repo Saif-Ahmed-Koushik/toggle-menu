@@ -11,6 +11,7 @@
     background: #eceaff;
     color: #525252;
 }
+
 nav{
     background: #1a1a1a;
     width: 100%;
@@ -22,11 +23,11 @@ nav{
 }
 
 .logo{
-    width: 40px;
+    width: 120px;
 }
 
 .user-pic{
-    width: 40px;
+    width: 45px;
     border-radius: 50%;
     cursor: pointer;
     margin-left: 30px;
@@ -54,7 +55,7 @@ nav ul li a{
     right: 10%;
     width: 320px;
     max-height: 0px;
-    display: none;
+    overflow: hidden;
     transition: max-height 0.5s;
 }
 
@@ -93,7 +94,7 @@ nav ul li a{
 
 .sub-menu-link{
     display: flex;
-    align-items: center;
+    align-items:center;
     text-decoration: none;
     color: #525252;
     margin: 12px 0;
